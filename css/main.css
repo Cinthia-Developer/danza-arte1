@@ -1,1 +1,73 @@
 /* Inserta tu codigo aqui */
+
+
+/* -------------------------------BODY------------ */
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+*{
+    outline: 1px solid #f8a2d4;
+}
+a{
+    text-decoration: none;
+}
+/* -------------------------------HEADER------------ */
+.container h1{
+    color: #6363a3;
+    font-weight: bold;
+}
+.list-menu ul{
+    list-style: none;
+    display:block;
+}
+.list-menu ul li{
+    display: inline-block;
+    margin: 10px 50px;
+}
+.list-menu ul li a{
+    text-decoration: none;
+}
+/* -------------------------------HERO------------ */
+.hero {
+    background: url(../img/dance_1.jpg) no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    height: 410px;
+    color: #dbd9d9;
+}
+.hero .studio{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.hero .container{
+    width: 230px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
