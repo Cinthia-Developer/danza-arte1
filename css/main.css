@@ -30,30 +30,93 @@ a{
 .list-menu ul li a{
     text-decoration: none;
 }
+.list-menu ul li a:hover{
+    
+}
 /* -------------------------------HERO------------ */
 .hero {
     background: url(../img/dance_1.jpg) no-repeat;
-    background-attachment: scroll;
-    background-size: 100%;
+    background-size: cover;
     height: 410px;
     color: #dbd9d9;
 }
 .hero .studio{
-    font-size: 50px;
+    font-size: 57px;
     font-weight: bold;
     margin-top: 40px;
 }
 .hero .container{
-    width: 230px;
+    width: 200px;
     margin-left: 100px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
-
-
-
-
-
-
+.hero p{
+    text-align: left;
+    font-size: 13px;
+}
+.hero a{
+    padding:5px;
+    color: #f4f4f4; 
+    background: #0a1021;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* --------------------------SECTION OFERTA------- */
+.ofert{
+   background-image: url(../img/textura_2.jpg) 
+}
+.oferta {
+   font-size: 25px;
+   margin: auto;
+   width: 700px;
+    margin-top: 50px;
+}
+.container img{
+    max-width: 120px;
+    margin: 0;
+    padding: 0;
+}
+.container button{
+    display:block;
+    margin: auto;
+    padding: 10px 125px;
+    color: #f4f4f4;
+    background: #252533;
+    margin-bottom: 80px;
+}
+/* --------------------------INSTRUCTORES------- */
+.instruc1{
+    background-image: url(../img/instructor_4.jpg);
+    height: 330px;
+    background-size: cover;
+    border: 1px solid #000;
+}
+.instruc2{
+    background-image: url(../img/profesor_9.jpg);
+    height: 330px;
+    background-size: cover;
+    border: 1px solid #000;
+}
+.container-fluid p{
+    width: 530px;
+    padding: 30px;
+    background: #243965;
+    color: #f4f4f4;
+    position: relative;
+    margin: auto;
+    bottom: 88px;
+    font-size: 20px;
+}
+/* --------------------------TEXTO------- */
+.texto{
+   font-size: 40px;
+   margin: auto;
+   width: 900px;
+   font-style: italic;
+}
+.text{
+    background-image: url(../img/tile2.png);
+}
 
 
 
