@@ -1,1 +1,33 @@
 /* Inserta tu codigo aqui */
+/* Inserta tu codigo aqui */
+*{
+    outline: 1px solid red;
+}
+/*----------------------------------------------------------header-----------------------------------------*/
+header{
+    text-align: center;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    margin: 10px 60px;
+    font-size: 18px;
+    text-decoration: none;
+}
+header ul li:hover{
+    font-size: 25px;
+    transition-duration: all 3s;
+    color: deepskyblue;
+}
+header ul li a{
+    color: darkgrey;
+}
+/*----------------------------------------------------------nosotros1-----------------------------------------*/
+.nosotros1{
+    background-image: url(../img/dance_7.jpg);
+    background-position: left;
+    background-size: contain;
+    height: 450px;
+}
