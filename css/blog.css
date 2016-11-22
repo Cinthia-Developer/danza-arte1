@@ -43,16 +43,16 @@ body{
 }
 .fond1{
 	background-image: url(../img/blog1.jpg);
-	background-size: 50%;
+	background-size: 100%;
 }
 .fond2{
 	background-image: url(../img/profesor_5.jpg);
-	background-size: 140%;
+	background-size: 50%;
 	background-position: center;
 }
 .fond3{
 	background-image: url(../img/instructor_1.jpg);
-	background-size: 150%;
+	background-size: 50%;
 	background-position: center;
 }
 .texto{
@@ -62,7 +62,7 @@ body{
 .tituloart{
 	color:#151719;
 	font-size: 15px;
-	margin: 20px 0 10px 0;
+	margin: 50px 0 10px 0;
 }
 p{
 	color:#b4b4b4;
