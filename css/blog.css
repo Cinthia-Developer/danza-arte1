@@ -1,1 +1,137 @@
-/* Inserta tu codigo aqui */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: "Montserrat";
+}
+.head{
+	text-align: center;
+	background-color: white;
+}
+.titulo{
+	color:#192951;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.menu{
+	text-decoration: none;
+	color:#80808b;
+}
+.menu1 li{
+	list-style: none;
+	margin:30px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+.section1{
+	background-color:#f4f4f4;
+}
+.fond1, .fond2, .fond3, .texto{
+	margin:30px 0;
+}
+.blog{
+	color:black;
+	font-size: 25px;
+	text-align: center;
+	padding: 50px 0;
+}
+.foto{
+	height: 250px;
+	background-repeat: no-repeat;
+}
+.fond1{
+	background-image: url(../img/blog1.jpg);
+	background-size: 100%;
+}
+.fond2{
+	background-image: url(../img/profesor_5.jpg);
+	background-size: 140%;
+	background-position: center;
+}
+.fond3{
+	background-image: url(../img/instructor_1.jpg);
+	background-size: 150%;
+	background-position: center;
+}
+.texto{
+	background-color: #dddee0;
+	height: 250px;
+}
+.tituloart{
+	color:#151719;
+	font-size: 15px;
+	margin: 20px 0 10px 0;
+}
+p{
+	color:#b4b4b4;
+	font-size: 15px;
+	margin: 5px 0;
+}
+.text2{
+	color:#6f7071;
+	font-size: 15px;
+}
+.ver{
+	text-decoration:none;
+	color:white;
+	background-color: #1a2952;
+	padding: 20px 80px;
+	border-radius: 5px;
+	position:relative;
+	top:50px;
+}
+.contact{
+	background-image: url(../img/shoes_1.jpg);
+	height: 600px;
+	background-size:70%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+form{
+	width: 450px;
+	margin: 30px auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:1px gray solid;
+}
+textarea{
+	height: 100px;
+}
+#boton{
+	background-color: #192951;
+	color: white;
+	padding: 20px;
+	border-radius: 7px;
+	border:none;
+}
+h2{
+	color:#192951;
+	font-size: 30px;
+	margin-bottom:40px;
+}
+.foot{
+	background-color: #192951;
+}
+.footext{
+	color:white;
+	font-size: 12px;
+	padding: 20px 0;
+}
+/*Para centrar*/
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
