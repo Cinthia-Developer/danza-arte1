@@ -115,7 +115,9 @@ a{
     opacity: 0.7;
     font-weight: bold;
 }
-
+.nuestros{
+    height: 300px;
+}
 /* --------------------------TEXTO------- */
 .texto{
    font-size: 35px;
