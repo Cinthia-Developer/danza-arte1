@@ -39,7 +39,7 @@ body{
 	padding: 50px 0;
 }
 .foto{
-	height: 100px;
+	height: 250px;
 	background-repeat: no-repeat;
 }
 .fond1{
@@ -48,12 +48,12 @@ body{
 }
 .fond2{
 	background-image: url(../img/profesor_5.jpg);
-	background-size: 50%;
+	background-size: 100%;
 	background-position: center;
 }
 .fond3{
 	background-image: url(../img/instructor_1.jpg);
-	background-size: 50%;
+	background-size: 100%;
 	background-position: center;
 }
 .texto{
