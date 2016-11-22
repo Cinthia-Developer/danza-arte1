@@ -99,23 +99,32 @@ header h1{
 	background-position: right;
 	background-repeat: no-repeat;
 	background-color: white;
-    padding: 50px;
+    padding: 10px;
 }
-.formulario label{
+.formulario form{
+    width: 52%;
+    padding: 20px 0 20px 60px;
+}
+.formulario h3{
+    color: #192951;
     font-size: 35px;
-    color:#192951;
-    margin:10px 10px 10px 50px;
-    
 }
-.formulario form input{
-    margin: 10px 50px;
+.formulario  input, textarea{
+    margin: 5px 0;
     width: 470px;
     padding: 5px;
     padding-left: 50px;
     height: 40px;
 }
-.formulario #mensaje{
+.formulario textarea{
     height: 120px;
+    
+}
+.formulario label{
+    font-size: 26px;
+    margin: 11px 0 0 9px;
+    position: absolute;
+    vertical-align: middle;
     
 }
 .formulario #boton{
