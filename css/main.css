@@ -235,9 +235,10 @@ a{
     padding-left: 40px;
     height: 30px;
 }
-.formulario #mensaje{
-    height: 120px;
-    
+.formulario .mensaje{
+    height: 150px;
+    margin-left: 50px;
+    padding-left: 40px
 }
 .formulario #boton{
     background-color: #192951;
