@@ -32,7 +32,12 @@ a{
     text-decoration: none;
 }
 .list-menu ul li a:hover{
-    
+    background: #4e5776;
+    padding: 10px 30px;
+    font-weight: bold;
+    opacity: 0.3;
+    color: #fff;
+    bottom:50px;
 }
 /* -------------------------------HERO------------ */
 .hero {
@@ -83,7 +88,7 @@ a{
     padding: 10px 125px;
     color: #f4f4f4;
     background: #252533;
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 }
 /* --------------------------INSTRUCTORES------- */
 .instruc1{
@@ -98,28 +103,34 @@ a{
     background-size: cover;
     border: 1px solid #000;
 }
-.container-fluid p{
-    width: 480px;
-    padding: 15px;
-    background: #243965;
-    color: #f4f4f4;
+.instructores a{
+    bottom: 41px;
     position: relative;
-    margin: auto;
-    bottom: 58px;
-    font-size: 20px;
+    padding: 20px 190px;
+    background: #111743;
+    color: #e8dfdf;
+    font-size: 16px;
 }
+.instructores a:hover{
+    text-decoration: none;
+    color: #afd2d6;
+    font-size: 17px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
 /* --------------------------TEXTO------- */
 .texto{
-   font-size: 40px;
+   font-size: 35px;
    margin: auto;
-   width: 900px;
+   width: 790px;
    font-style: italic;
+    padding: 50px 0;
 }
-.text{
-    background-image: url(../img/tile2.png);
+/* --------------------------TEXTO------- */
+.map{
+   
 }
-
-
 
 
 
