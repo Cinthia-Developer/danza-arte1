@@ -118,56 +118,54 @@ body{
 	background-image: url(../img/cubes.png);
 	height: 300px;
 }
-.contact{
+.formulario{
 	background-image: url(../img/shoes_1.jpg);
-	height: 600px;
-	background-size:70%;
+	height: 500px;
+	background-size:62%;
 	background-position: right;
 	background-repeat: no-repeat;
 	background-color: white;
+    padding: 10px;
 }
-form{
-	width: 450px;
-	margin: 30px auto;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	border-radius: 7px;
+.formulario form{
+    width: 52%;
+    padding: 20px 0 20px 60px;
 }
-input, textarea{
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-	font-size: 17px;
-	border:1px gray solid;
+.formulario h3{
+    color: #192951;
+    font-size: 35px;
 }
-textarea{
-	height: 100px;
+.formulario  input, textarea{
+    margin: 5px 0;
+    width: 470px;
+    padding: 5px;
+    padding-left: 50px;
+    height: 40px;
 }
-#boton{
-	background-color: #192951;
+.formulario textarea{
+    height: 120px;
+    
+}
+.formulario label{
+    font-size: 26px;
+    margin: 11px 0 0 9px;
+    position: absolute;
+    vertical-align: middle;
+    
+}
+.formulario #boton{
+    background-color: #192951;
 	color: white;
-	padding: 20px;
-	border-radius: 7px;
+	padding: 10px;
+	border-radius: 5px;
 	border:none;
+    height: 50px;
+    font-size: 20px;
 }
-h2{
-	color:#192951;
-	font-size: 30px;
-	margin-bottom:40px;
+/*----------------------------------------------------------footer-----------------------------------------*/
+footer{
+   background-color:#080a22; 
+    height: 50px;
+    color:darkgrey;
+    padding-top: 20px;
 }
-.foot{
-	background-color: #192951;
-}
-.footext{
-	color:white;
-	font-size: 12px;
-	padding: 20px 0;
-}
-/*Para centrar*/
-  .column.large-centered,
-  .columns.large-centered {
-    margin-left: auto;
-    margin-right: auto;
-    float: none !important;
-  }
