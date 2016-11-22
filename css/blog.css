@@ -1,10 +1,98 @@
 
 /* -------------------------------BODY------------ */
 body{
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: "Montserrat", serif;
+=======
+	font-family: "Montserrat";
+}
+.head{
+	text-align: center;
+	background-color: white;
+}
+.titulo{
+	color:#192951;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.menu{
+	text-decoration: none;
+	color:#80808b;
+}
+.menu1 li{
+	list-style: none;
+	margin:30px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+.section1{
+	background-color:#f4f4f4;
+}
+.fond1, .fond2, .fond3, .texto{
+	margin:30px 0;
+}
+.blog{
+	color:black;
+	font-size: 25px;
+	text-align: center;
+	padding: 50px 0;
+}
+.foto{
+	height: 250px;
+	background-repeat: no-repeat;
+}
+.fond1{
+	background-image: url(../img/blog1.jpg);
+	background-size: 100%;
+}
+.fond2{
+	background-image: url(../img/profesor_5.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+.fond3{
+	background-image: url(../img/instructor_1.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+.texto{
+	background-color: #dddee0;
+	height: 250px;
+}
+.tituloart{
+	color:#151719;
+	font-size: 15px;
+	margin: 50px 0 10px 0;
+}
+p{
+	color:#b4b4b4;
+	font-size: 15px;
+	margin: 5px 0;
+}
+.text2{
+	color:#6f7071;
+	font-size: 15px;
+}
+.ver{
+	text-decoration:none;
+	color:white;
+	background-color: #1a2952;
+	padding: 20px 80px;
+	border-radius: 5px;
+	position:relative;
+	top:50px;
+}
+.contact{
+	background-image: url(../img/shoes_1.jpg);
+	height: 600px;
+	background-size:70%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+>>>>>>> d8aae4858eab59c57350b7bcb785fe36b0a0cb1f
 }
 *{
     outline: 1px solid #f8a2d4;
