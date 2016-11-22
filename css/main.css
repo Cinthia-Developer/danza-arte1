@@ -220,32 +220,23 @@ a{
 	background-position: right;
 	background-repeat: no-repeat;
 	background-color: white;
-    padding: 10px;
-}
-.formulario form{
-    width: 52%;
-    padding: 20px 0 20px 60px;
-}
-.formulario h3{
-    color: #192951;
-    font-size: 35px;
-}
-.formulario  input, textarea{
-    margin: 5px 0;
-    width: 470px;
-    padding: 5px;
-    padding-left: 50px;
-    height: 40px;
-}
-.formulario textarea{
-    height: 120px;
-    
+    padding: 50px;
+    text-align: left;
 }
 .formulario label{
-    font-size: 26px;
-    margin: 11px 0 0 9px;
-    position: absolute;
-    vertical-align: middle;
+    font-size: 35px;
+    color:#192951;
+    margin:20px 10px 10px 50px;
+    
+}
+.formulario form input{
+    margin: 6px 50px;
+    width: 470px;
+    padding-left: 40px;
+    height: 30px;
+}
+.formulario #mensaje{
+    height: 120px;
     
 }
 .formulario #boton{
@@ -255,12 +246,13 @@ a{
 	border-radius: 5px;
 	border:none;
     height: 50px;
-    font-size: 20px;
+    font-size: 13px;
 }
-/*----------------------------------------------------------footer-----------------------------------------*/
+/*----------------------------------------FOOTER------*/
 footer{
    background-color:#080a22; 
     height: 50px;
     color:darkgrey;
     padding-top: 20px;
+    text-align: left;
 }
