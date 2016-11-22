@@ -1,5 +1,4 @@
 /* Inserta tu codigo aqui */
-/* Inserta tu codigo aqui */
 *{
     outline: 1px solid red;
 }
@@ -24,6 +23,10 @@ header ul li:hover{
 header ul li a{
     color: darkgrey;
 }
+header h1{
+    color: darkslateblue;
+    margin: 20px;
+}
 /*----------------------------------------------------------nosotros1-----------------------------------------*/
 .nosotros1{
     background-image: url(../img/dance_7.jpg);
@@ -47,12 +50,54 @@ header ul li a{
 /*----------------------------------------------------------pilar-----------------------------------------*/
 .pilar{
     background-image: url(../img/cubes.png);
+    text-align: center;
+    color:darkgray;
 }
+.pilar .uno, .dos, .tres{
+    width: 70%;
+    padding: 20px 10px;
+    margin: 50px auto;
+}
+.pilar hr{
+    height: 0.5px;
+    background-color: darkgrey;
+}
+.pilar p{
+    font-size: 15px;
+}
+
+/*----------------------------------------------------------instructores-----------------------------------------*/
+.instructores {
+    color:black;
+    margin-bottom: 100px;;
+}
+.instructores h2{
+    padding: 20px;
+    text-align: center;
+}
+.instructores img{
+    width: 260px;
+    height: 200px;
+    margin: 30px auto 2px auto;
+    align-content: center;
+}
+.instructores p{
+    padding-right: 50px;
+}
+
 /*----------------------------------------------------------frase-----------------------------------------*/
 .frase{
     background-image: url(../img/cubes.png);
+    height: 250px;
+}
+.frase h1{
+    text-align: center;
+    margin-top: 100px;
 }
 /*----------------------------------------------------------footer-----------------------------------------*/
 footer{
-    
+   background-color:#080a22; 
+    height: 50px;
+    color:darkgrey;
+    padding-top: 20px;
 }
