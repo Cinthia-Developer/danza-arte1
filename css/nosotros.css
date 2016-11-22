@@ -104,13 +104,14 @@ header h1{
 .formulario label{
     font-size: 35px;
     color:#192951;
-    margin:20px 10px 10px 50px;
+    margin:10px 10px 10px 50px;
     
 }
 .formulario form input{
     margin: 10px 50px;
     width: 470px;
     padding: 5px;
+    padding-left: 50px;
     height: 40px;
 }
 .formulario #mensaje{
