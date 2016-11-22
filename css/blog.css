@@ -38,12 +38,12 @@ body{
 	padding: 50px 0;
 }
 .foto{
-	height: 250px;
+	height: 100px;
 	background-repeat: no-repeat;
 }
 .fond1{
 	background-image: url(../img/blog1.jpg);
-	background-size: 100%;
+	background-size: 50%;
 }
 .fond2{
 	background-image: url(../img/profesor_5.jpg);
